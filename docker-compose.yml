@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  demo:
+    image: # TODO - Change to image name
+    env_file: .env
+    ports:
+      - "8000:8000"
